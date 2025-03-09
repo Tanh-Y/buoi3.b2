@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Phần 3.1 - Hộp chứa chữ "This is a basic HTML page" */
+.box-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #4c3c30;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Phần 3.2 - Hộp màu xếp dọc */
+.color-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.box {
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+/* Phần 3.3 - Ví dụ trình bày bảng */
+font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.image-container img {
+    width: 30%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.image-container img:hover {
+    opacity: 1;
+}
